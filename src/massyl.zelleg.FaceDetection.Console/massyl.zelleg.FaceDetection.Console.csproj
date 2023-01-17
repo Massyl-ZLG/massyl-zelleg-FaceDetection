@@ -9,10 +9,13 @@
 
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.CommandLineUtils" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.CommandLineUtils" Version="1.1.1" />
   </ItemGroup>
 
-
+  <PropertyGroup>
+    <SelfContained>false</SelfContained>
+  </PropertyGroup>
+  
   <ItemGroup>
     <ProjectReference Include="..\massyl.zelleg.FaceDetection\massyl.zelleg.FaceDetection.csproj" />
   </ItemGroup>
