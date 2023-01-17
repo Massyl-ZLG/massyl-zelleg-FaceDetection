@@ -25,7 +25,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '6.0.101'
+          dotnet-version: '6.0.113'
       - run: dotnet test
       - run: dotnet publish ./src/massyl.zelleg.FaceDetection.Console/massyl.zelleg.FaceDetection.Console.csproj --self-contained true --output ./win-x64/feature-matching -c Release -r win-x64 /p:PublishSingleFile=true /p:PublishTrimmed=true /p:PublishReadyToRun=true
       - name: Upload Console Build Artifact
