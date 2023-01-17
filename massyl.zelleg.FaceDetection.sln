@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9ED53C26-7392-4ECD-9854-9F188F93E44B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "massyl.zelleg.FaceDetection", "src\massyl.zelleg.FaceDetection\massyl.zelleg.FaceDetection.csproj", "{AB479E3C-6C28-443A-9B95-F63D9576F29D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{106F457F-C5A7-47E8-A8BC-E6449A602F1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "massyl.zelleg.FaceDetection.Tests", "tests\massyl.zelleg.FaceDetection.Tests\massyl.zelleg.FaceDetection.Tests.csproj", "{EF2FB5F2-B7F6-4343-8D5C-6DABA9E7ACDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "massyl.zelleg.FaceDetection.Console", "src\massyl.zelleg.FaceDetection.Console\massyl.zelleg.FaceDetection.Console.csproj", "{1307A9C8-4FB2-4799-8887-7B0F595F0225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "massyl.zelleg.FaceDetection.WebApi", "src\massyl.zelleg.FaceDetection.WebApi\massyl.zelleg.FaceDetection.WebApi.csproj", "{798DE2A8-60DD-4F74-9016-85CA0BE8E046}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB479E3C-6C28-443A-9B95-F63D9576F29D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB479E3C-6C28-443A-9B95-F63D9576F29D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB479E3C-6C28-443A-9B95-F63D9576F29D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB479E3C-6C28-443A-9B95-F63D9576F29D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2FB5F2-B7F6-4343-8D5C-6DABA9E7ACDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2FB5F2-B7F6-4343-8D5C-6DABA9E7ACDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2FB5F2-B7F6-4343-8D5C-6DABA9E7ACDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2FB5F2-B7F6-4343-8D5C-6DABA9E7ACDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1307A9C8-4FB2-4799-8887-7B0F595F0225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1307A9C8-4FB2-4799-8887-7B0F595F0225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1307A9C8-4FB2-4799-8887-7B0F595F0225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1307A9C8-4FB2-4799-8887-7B0F595F0225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{798DE2A8-60DD-4F74-9016-85CA0BE8E046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{798DE2A8-60DD-4F74-9016-85CA0BE8E046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{798DE2A8-60DD-4F74-9016-85CA0BE8E046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{798DE2A8-60DD-4F74-9016-85CA0BE8E046}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB479E3C-6C28-443A-9B95-F63D9576F29D} = {9ED53C26-7392-4ECD-9854-9F188F93E44B}
+		{EF2FB5F2-B7F6-4343-8D5C-6DABA9E7ACDC} = {106F457F-C5A7-47E8-A8BC-E6449A602F1C}
+		{1307A9C8-4FB2-4799-8887-7B0F595F0225} = {9ED53C26-7392-4ECD-9854-9F188F93E44B}
+		{798DE2A8-60DD-4F74-9016-85CA0BE8E046} = {9ED53C26-7392-4ECD-9854-9F188F93E44B}
+	EndGlobalSection
+EndGlobal

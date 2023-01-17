@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\massyl.zelleg.FaceDetection.Console\massyl.zelleg.FaceDetection.Console.csproj" />
+    <ProjectReference Include="..\massyl.zelleg.FaceDetection\massyl.zelleg.FaceDetection.csproj" />
+  </ItemGroup>
+
+</Project>
