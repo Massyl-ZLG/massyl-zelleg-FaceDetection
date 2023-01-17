@@ -5,6 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <RuntimeIdentifier>linux-x64</RuntimeIdentifier>
   </PropertyGroup>
 
 
@@ -12,9 +13,6 @@
     <PackageReference Include="Microsoft.Extensions.CommandLineUtils" Version="1.1.1" />
   </ItemGroup>
 
-  <PropertyGroup>
-    <SelfContained>false</SelfContained>
-  </PropertyGroup>
   
   <ItemGroup>
     <ProjectReference Include="..\massyl.zelleg.FaceDetection\massyl.zelleg.FaceDetection.csproj" />
